@@ -34,4 +34,4 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/sachinbhawar2014/E-comm-project-busybuy-
