@@ -8,7 +8,6 @@ This is a fully functional e-commerce application built with React, Redux Toolki
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [License](#license)
 
 ## Key Features
 
@@ -28,10 +27,5 @@ This is a fully functional e-commerce application built with React, Redux Toolki
 - **React Router**: For routing within the application.
 - **React Toastify**: For displaying notifications.
 
-## Getting Started
-
-To run this project locally, follow these steps:
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/sachinbhawar2014/E-comm-project-busybuy-
+## Experience this App Live at
+https://e-comm-project-busybuy.vercel.app/
