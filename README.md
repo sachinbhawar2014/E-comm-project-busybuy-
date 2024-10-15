@@ -6,8 +6,6 @@ This is a fully functional e-commerce application built with **React**, **Redux 
 
 - [✨ Key Features](#key-features)
 - [💻 Technologies Used](#technologies-used)
-- [🚀 Getting Started](#getting-started)
-- [🛠️ Usage](#usage)
 
 ## ✨ Key Features
 
