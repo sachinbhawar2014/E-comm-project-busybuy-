@@ -10,7 +10,7 @@ const initialState = {
 };
 
 export const getAllProducts = createAsyncThunk("products/getAllProducts", async () => {
-    const productsRef = collection(db, "products");
+    const productsRef = collection(db, "products"); // firebase doc reference.
     return await getDocs(query(productsRef));
 });
 
