@@ -1,14 +1,17 @@
 .productContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem 2rem;
-  border-radius: 10px;
-  transition: all 0.25s ease-in-out;
-  box-shadow: rgba(64, 77, 148, 0.4) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 250px;
+    max-width: 350px;
+    min-width: 250px;
+    align-items: center;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    transition: all 0.25s ease-in-out;
+    box-shadow: rgba(64, 77, 148, 0.4) 0px 2px 8px 0px;
 }
 
 .productContainer:hover {
-  box-shadow: rgba(64, 77, 148, 0.4) 0px 2px 8px 0px;
+    box-shadow: rgba(64, 77, 148, 0.4) 0px 2px 8px 0px;
 }

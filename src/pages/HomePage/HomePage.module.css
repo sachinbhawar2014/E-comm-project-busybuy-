@@ -7,7 +7,6 @@
 }
 
 .searchInput {
-    margin: 1em 0px !important;
     font-size: 1.2em;
     color: #7064e5 !important;
     background: #f4f6f8 !important;
@@ -18,12 +17,11 @@
     font-weight: 400;
     line-height: 1.5;
     outline: none;
-    width: 100%;
+    width: 200px;
 }
 
 .form {
     margin: auto;
-    width: 25%;
 }
 
 div h2 {

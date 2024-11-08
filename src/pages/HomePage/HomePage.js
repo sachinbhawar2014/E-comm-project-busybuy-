@@ -47,21 +47,30 @@ function HomePage() {
 
     return (
         <div className={styles.homePageContainer}>
-            <FilterSidebar
-                setPriceRange={setPriceRange}
-                setCategories={setCategories}
-                priceRange={priceRange}
-            />
             <form className={styles.form}>
                 <input
+                    className={styles.searchInput}
                     type="search"
                     placeholder="Search By Name"
-                    className={styles.searchInput}
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
                 />
             </form>
-            {products.length ? <ProductList products={products.length ? filteredProducts : null} /> : null}
+
+            <div className="container-fuild mx-2 d-flex flex-column flex-md-row align-items-center align-items-md-start">
+                <div className="d-flex align-items-center col-md-3 col-lg-2">
+                    <FilterSidebar
+                        setPriceRange={setPriceRange}
+                        setCategories={setCategories}
+                        priceRange={priceRange}
+                    />
+                </div>
+                <div className="d-flex align-items-center">
+                    {products.length ? (
+                        <ProductList products={products.length ? filteredProducts : null} />
+                    ) : null}
+                </div>
+            </div>
         </div>
     );
 }
