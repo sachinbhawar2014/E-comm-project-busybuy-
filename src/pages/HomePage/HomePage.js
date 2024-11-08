@@ -58,7 +58,7 @@ function HomePage() {
             </form>
 
             <div className="container-fuild mx-2 d-flex flex-column flex-md-row align-items-center align-items-md-start">
-                <div className="d-flex align-items-center col-md-3 col-lg-3">
+                <div className="d-flex align-items-center col-md-3 col-lg-3 justify-content-center">
                     <FilterSidebar
                         setPriceRange={setPriceRange}
                         setCategories={setCategories}

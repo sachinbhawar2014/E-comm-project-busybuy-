@@ -25,13 +25,14 @@ const ProductDetails = ({ title, price, productId, onCart, quantity }) => {
 
     // Function to add product to cart
     const addProductToCart = async () => {
-        setProductAddingToCart(true);
+        setProductAddingToCart(true); // lccally setting this state which will make button text ...
         // Redirect to login page if user is not authenticated
         if (!user) {
             return navigate("/signin");
         }
 
         try {
+            console.log("product adding attempted");
             const { docRef, data } = await getUserCartProducts(user.uid);
             console.log({ docRef, data });
             // If cart exists then update the cart
