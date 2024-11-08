@@ -41,6 +41,7 @@ const getProductsUsingProductIds = async (cart) => {
 // Fetch users cart products from firestore
 const getUserCartProducts = async (uid) => {
     const docRef = doc(db, "usersCarts", uid);
+    console.log("docref", docRef);
     const docSnap = await getDoc(docRef);
     return { docRef, data: docSnap.data() };
 };
